@@ -1,0 +1,109 @@
+.testimonial-div {
+  width: 100%;
+  background-color: #F4F7FF;
+  padding: 60px 20px;
+  position: relative;
+}
+
+.testimonial-div h2 {
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto 50px;
+}
+
+.swiper-container {
+  padding: 50px 10px 30px;
+  margin: 20px;
+  /* background-color: red; */
+  overflow: hidden;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  box-shadow: 0 0 10px #00000026;
+  border-radius: 5%;
+}
+
+.swiper-slide .card {
+  width: 100% !important;
+  border: none;
+}
+
+.swiper-slide .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  left: 24px;
+}
+
+.swiper-slide .card-body {
+  position: relative;
+  top: -40px;
+  margin: 0 10px;
+}
+
+.swiper-slide .card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swiper-slide .card-title span {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.fa-quote-left {
+  color: #001755ce;
+}
+
+.swiper-slide .card-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.swiper-slide .card-text {
+  margin: 15px auto 0;
+  font-style: italic;
+}
+
+.swiper-navBtn {
+  position: absolute;
+  top: 60%;
+  color: rgba(0, 0, 0, 0.609);
+  transition: color 0.3s ease-out;
+}
+
+.swiper-navBtn:hover {
+  color: #000;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 2rem;
+}
+
+.swiper-pagination {
+  margin: 20px auto !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.609);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+      margin: 0;
+  }
+
+  .swiper-navBtn {
+      display: none;
+  }
+}
